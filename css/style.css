@@ -252,9 +252,11 @@ body {
 
 li .profile_title {
     padding: 0.4rem;
-    background-color: var(--brand-color);
-    color: white;
+    /* background-color: var(--brand-color); */
+    color: black;
     border-radius: 0.3rem;
+    border-width: 1%;
+    border-color: #030637;
 }
 
 /* Resume Page */
@@ -378,6 +380,11 @@ li .profile_title {
     background-color: #030637;
 } */
 
+.coding_language {
+    width: 50%;
+    height: 65%;
+}
+
 /* projects Page */
 
 .projects_page .projects_container {
@@ -386,7 +393,7 @@ li .profile_title {
 }
 
 .projects_page .projects_container .projects_box {
-    width: 50%;
+    width: 60%;
     margin: 0.6rem;
     border: 0.1rem solid var(--brand-color);
     border-radius: 0.4rem;
