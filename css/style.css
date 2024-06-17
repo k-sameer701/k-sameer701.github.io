@@ -363,10 +363,14 @@ li .profile_title {
 
 }
 
-.blog_box .blog_image {
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
+.blog_box  {
+    width: 100%;
+    height: 100%;
+    /* margin-left: 25%; */
+}
+.blog_image{
+    width: 100%;
+    height: 100%;
 }
 
 /* .blog_box:hover{
@@ -688,3 +692,8 @@ li .profile_title {
         width: 100%;
     }
 }
+
+/* ================================ ADDITIONAL ===============================
+ */
+
+ 
