@@ -43,6 +43,7 @@ body {
     position: relative;
 }
 
+
 /* Sidebar */
 .website_container .sidebar_container {
     width: 35%;
@@ -252,8 +253,8 @@ body {
 
 li .profile_title {
     padding: 0.4rem;
-    /* background-color: var(--brand-color); */
-    color: black;
+    background-color: var(--brand-color);
+    color: white;
     border-radius: 0.3rem;
     border-width: 1%;
     border-color: #030637;
