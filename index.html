@@ -17,6 +17,8 @@
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        
+
     <title>Sameer Kumar</title>
 </head>
 
@@ -57,8 +59,14 @@
         <div class="content_container">
             <!-- About Page -->
             <div class="about_page">
-                <h2 class="title">Hello, <span>there 🙋‍♂️</span></h2>
-                <hr class="line">
+                <div class="type_writer">
+                    <h1 class="ani_title">HEY, <span> THERE 🙋‍♂️</span></h1>
+                    <hr class="line">
+                    <br>
+                    <h1 class="ani_title">I'm  <span> Sameer </span></h1>
+                    <h1 class="ani_title"><span class="role" id="element"> </span></h1>
+                    
+                </div>
                 <div class="about_content">
                     <p class="about_text">I am a passionate Android developer and Computer Science undergraduate with a talent for problem-solving and innovation. Currently exploring algorithms and software development, I am eager to contribute to the tech landscape with creativity and efficient solutions.</p>
                 </div>
@@ -104,9 +112,30 @@
 
                 </div>
         </div>
+        <footer class="footer">
+            <div class="copyright">
+                Copyright © k-sameer701.github.io | All Rights Reserved | 2024
+              </div>
+        </footer>
 
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed("#element", {
+              strings: [
+                "Software Developer.",
+                "Freelancer.",
+                "Android Developer.",
+                "Open Source Contributor",
+              ],
+              typeSpeed: 90,
+              loop: true,
+              loopCount: Infinity,
+              backDelay: 700,
+            });
+          </script>
 
         <script src="js/script.js"></script>
+        
 </body>
 
 </html>

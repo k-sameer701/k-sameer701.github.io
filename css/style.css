@@ -43,6 +43,15 @@ body {
     position: relative;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
 
 /* Sidebar */
 .website_container .sidebar_container {
