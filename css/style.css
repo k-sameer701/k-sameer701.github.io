@@ -610,7 +610,7 @@ li .profile_title {
 
     .website_container .sidebar_container {
         width: 100%;
-        height: min-content;
+        height: 100px;
         margin-bottom: 1rem;
     }
 
